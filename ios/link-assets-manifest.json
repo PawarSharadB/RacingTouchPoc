@@ -1,0 +1,29 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/LICENSE_OFL.txt",
+      "sha1": "ec660b17dff69058c2bbf122ca85ab83b920fce7"
+    },
+    {
+      "path": "assets/fonts/NotoSansCJKtc-Bold.otf",
+      "sha1": "8b3c2c61f94de2ea1267b8f6caa4ba9a1923521b"
+    },
+    {
+      "path": "assets/fonts/NotoSansCJKtc-Light.otf",
+      "sha1": "be2cc9b82a8fd1c700a4c5634b348a4d5e65e65c"
+    },
+    {
+      "path": "assets/fonts/NotoSansCJKtc-Medium.otf",
+      "sha1": "01f7951f658074bcff6b8e5e28c8c8c6581ee29a"
+    },
+    {
+      "path": "assets/fonts/NotoSansCJKtc-Regular.otf",
+      "sha1": "f545377896a99e8988f2d359c281bdb5899e72f3"
+    },
+    {
+      "path": "assets/fonts/README",
+      "sha1": "5514fac07d7d38e21f91a17ded55040e54f0cd78"
+    }
+  ]
+}
