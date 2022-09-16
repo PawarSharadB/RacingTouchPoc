@@ -1,18 +1,27 @@
 import { configureStore, getDefaultMiddleware } from '@reduxjs/toolkit';
 import createSagaMiddleware from 'redux-saga';
-import saga from './saga';
-import { fetchTokenData } from './slices/tokenDataSlice';
+import { rootReducer } from './rootReducer';
+import rootSaga from './sagas/index';
 
 let sagaMiddleware = createSagaMiddleware();
-const middleware = [...getDefaultMiddleware({ thunk: false }), sagaMiddleware];
+
+const middleware = [
+  ...getDefaultMiddleware({
+    thunk: false,
+    serializableCheck: {
+      ignoredActions: ['redux-oidc/USER_FOUND'],
+      ignoredPaths: ['oidc.user'],
+    },
+  }),
+  sagaMiddleware,
+];
 
 const store = configureStore({
-  reducer: {
-    todo: fetchTokenData.reducer,
-  },
+  reducer: rootReducer,
   middleware,
+  devTools: process.env.NODE_ENV !== 'production',
 });
 
-sagaMiddleware.run(saga);
+sagaMiddleware.run(rootSaga);
 
 export default store;

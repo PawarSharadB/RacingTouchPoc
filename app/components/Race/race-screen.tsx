@@ -1,5 +1,7 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { FlatList, View, Text, Image } from 'react-native';
+import { useSelector, useDispatch } from 'react-redux';
+
 import { images } from '../../theme/images';
 import { palette } from '../../theme/pallete';
 import { convertMeetingNameShort } from '../../utils/commonMethods';
@@ -12,6 +14,8 @@ import { presets as racePresets } from './race-screen.presets';
 import { RaceTopView } from './race-top-view';
 import { raceData } from '../../utils/raceData';
 import { StartupTime } from 'react-native-startup-time';
+import { RootState, useAppDispatch } from '../../redux/rootReducer';
+import { getPosts } from '../../redux/slices/getPostsSlice';
 
 const color = palette;
 
@@ -167,7 +171,14 @@ const RenderItem = ({ item }: { index: number; item: any }) => {
 };
 
 export const RaceScreen = () => {
+  // const posts = useSelector((state: RootState) => state.posts);
+  // const dispatch = useAppDispatch();
+
+  //console.log('posts======================== ', posts);
   const styles = racePresets.default;
+  // useEffect(() => {
+  //   dispatch(getPosts());
+  // }, []);
   return (
     <View>
       <Header />
