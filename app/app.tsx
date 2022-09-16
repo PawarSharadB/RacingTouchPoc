@@ -12,6 +12,8 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { HomeTabBar, MyTabBar } from './components/TabBar/my-tab-bar';
 import { createStackNavigator } from '@react-navigation/stack';
 import routes from './navigation/routes';
+import store from './redux/store';
+import { Provider } from 'react-redux';
 
 export type RootStackNavigationParamList = {
   [routes.Race]: undefined;
@@ -38,7 +40,7 @@ const App = () => {
   const Tab = createBottomTabNavigator();
 
   return (
-    <>
+    <Provider store={store}>
       <NavigationContainer>
         <Tab.Navigator
           screenOptions={{
@@ -48,7 +50,7 @@ const App = () => {
           {transformObjectToScreen(HomeTabBar)}
         </Tab.Navigator>
       </NavigationContainer>
-    </>
+    </Provider>
   );
 };
 

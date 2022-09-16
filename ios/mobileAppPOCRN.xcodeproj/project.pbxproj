@@ -10,16 +10,15 @@
 		00E356F31AD99517003FC87E /* mobileAppPOCRNTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* mobileAppPOCRNTests.m */; };
 		0C80B921A6F3F58F76C31292 /* libPods-mobileAppPOCRN.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-mobileAppPOCRN.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
-		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		3CAB73FF014B4CDE85B676C4 /* NotoSansCJKtc-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = DAEF92F5FE9345AF92CB613A /* NotoSansCJKtc-Medium.otf */; };
-		4249242F18D24EC8AEAA9A33 /* README in Resources */ = {isa = PBXBuildFile; fileRef = FFE6EB3CA06A4C8BBFF37FC9 /* README */; };
-		43B32F93BDB2425C81098193 /* NotoSansCJKtc-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1F70DAFCC42341C08AF78092 /* NotoSansCJKtc-Regular.otf */; };
-		62AE4265D870440BA8D37C7C /* LICENSE_OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = A19C4DF914F64F53954EC744 /* LICENSE_OFL.txt */; };
+		18FA2C56113E4310A3D88B6A /* LICENSE_OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 85DA4B3144D547B18C3C68A1 /* LICENSE_OFL.txt */; };
+		411FDED0B9DA46E38A09FC35 /* NotoSansCJKtc-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7957D965DF444348A78744C1 /* NotoSansCJKtc-Light.otf */; };
+		61A8A96994AC4A03A0C3B6E5 /* NotoSansCJKtc-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7C22E3659F094D678969F79C /* NotoSansCJKtc-Bold.otf */; };
 		7699B88040F8A987B510C191 /* libPods-mobileAppPOCRN-mobileAppPOCRNTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-mobileAppPOCRN-mobileAppPOCRNTests.a */; };
+		7FFF401401194AA7BB006424 /* NotoSansCJKtc-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = DAAF5C7F8E414A6C99C591C3 /* NotoSansCJKtc-Regular.otf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		C17FB15CB9274EC8892FB219 /* NotoSansCJKtc-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B07B977579F2445FB8CD7ACA /* NotoSansCJKtc-Bold.otf */; };
-		DA419E3E180047F799E1A63F /* NotoSansCJKtc-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = C566311853924F57B73A02C3 /* NotoSansCJKtc-Light.otf */; };
+		D88CEAFA6EA345DFB681D725 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 485D52ED5DAF4E6082C3DEE6 /* README */; };
+		E420475C74E54D58BE1CF072 /* NotoSansCJKtc-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82FBF84CB10F4EE7B80F6E4A /* NotoSansCJKtc-Medium.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,19 +42,19 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = mobileAppPOCRN/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = mobileAppPOCRN/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-mobileAppPOCRN-mobileAppPOCRNTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mobileAppPOCRN-mobileAppPOCRNTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F70DAFCC42341C08AF78092 /* NotoSansCJKtc-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSansCJKtc-Regular.otf"; path = "../assets/fonts/NotoSansCJKtc-Regular.otf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-mobileAppPOCRN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobileAppPOCRN.debug.xcconfig"; path = "Target Support Files/Pods-mobileAppPOCRN/Pods-mobileAppPOCRN.debug.xcconfig"; sourceTree = "<group>"; };
+		485D52ED5DAF4E6082C3DEE6 /* README */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = README; path = ../assets/fonts/README; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-mobileAppPOCRN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobileAppPOCRN.release.xcconfig"; path = "Target Support Files/Pods-mobileAppPOCRN/Pods-mobileAppPOCRN.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-mobileAppPOCRN-mobileAppPOCRNTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobileAppPOCRN-mobileAppPOCRNTests.debug.xcconfig"; path = "Target Support Files/Pods-mobileAppPOCRN-mobileAppPOCRNTests/Pods-mobileAppPOCRN-mobileAppPOCRNTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-mobileAppPOCRN.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mobileAppPOCRN.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7957D965DF444348A78744C1 /* NotoSansCJKtc-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSansCJKtc-Light.otf"; path = "../assets/fonts/NotoSansCJKtc-Light.otf"; sourceTree = "<group>"; };
+		7C22E3659F094D678969F79C /* NotoSansCJKtc-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSansCJKtc-Bold.otf"; path = "../assets/fonts/NotoSansCJKtc-Bold.otf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = mobileAppPOCRN/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82FBF84CB10F4EE7B80F6E4A /* NotoSansCJKtc-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSansCJKtc-Medium.otf"; path = "../assets/fonts/NotoSansCJKtc-Medium.otf"; sourceTree = "<group>"; };
+		85DA4B3144D547B18C3C68A1 /* LICENSE_OFL.txt */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = LICENSE_OFL.txt; path = ../assets/fonts/LICENSE_OFL.txt; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-mobileAppPOCRN-mobileAppPOCRNTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobileAppPOCRN-mobileAppPOCRNTests.release.xcconfig"; path = "Target Support Files/Pods-mobileAppPOCRN-mobileAppPOCRNTests/Pods-mobileAppPOCRN-mobileAppPOCRNTests.release.xcconfig"; sourceTree = "<group>"; };
-		A19C4DF914F64F53954EC744 /* LICENSE_OFL.txt */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = LICENSE_OFL.txt; path = ../assets/fonts/LICENSE_OFL.txt; sourceTree = "<group>"; };
-		B07B977579F2445FB8CD7ACA /* NotoSansCJKtc-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSansCJKtc-Bold.otf"; path = "../assets/fonts/NotoSansCJKtc-Bold.otf"; sourceTree = "<group>"; };
-		C566311853924F57B73A02C3 /* NotoSansCJKtc-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSansCJKtc-Light.otf"; path = "../assets/fonts/NotoSansCJKtc-Light.otf"; sourceTree = "<group>"; };
-		DAEF92F5FE9345AF92CB613A /* NotoSansCJKtc-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSansCJKtc-Medium.otf"; path = "../assets/fonts/NotoSansCJKtc-Medium.otf"; sourceTree = "<group>"; };
+		DAAF5C7F8E414A6C99C591C3 /* NotoSansCJKtc-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSansCJKtc-Regular.otf"; path = "../assets/fonts/NotoSansCJKtc-Regular.otf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		FFE6EB3CA06A4C8BBFF37FC9 /* README */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = README; path = ../assets/fonts/README; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,15 +163,14 @@
 		E8ACD472305849B9BE0D46AF /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				B07B977579F2445FB8CD7ACA /* NotoSansCJKtc-Bold.otf */,
-				C566311853924F57B73A02C3 /* NotoSansCJKtc-Light.otf */,
-				DAEF92F5FE9345AF92CB613A /* NotoSansCJKtc-Medium.otf */,
-				1F70DAFCC42341C08AF78092 /* NotoSansCJKtc-Regular.otf */,
-				A19C4DF914F64F53954EC744 /* LICENSE_OFL.txt */,
-				FFE6EB3CA06A4C8BBFF37FC9 /* README */,
+				7C22E3659F094D678969F79C /* NotoSansCJKtc-Bold.otf */,
+				7957D965DF444348A78744C1 /* NotoSansCJKtc-Light.otf */,
+				82FBF84CB10F4EE7B80F6E4A /* NotoSansCJKtc-Medium.otf */,
+				DAAF5C7F8E414A6C99C591C3 /* NotoSansCJKtc-Regular.otf */,
+				85DA4B3144D547B18C3C68A1 /* LICENSE_OFL.txt */,
+				485D52ED5DAF4E6082C3DEE6 /* README */,
 			);
 			name = Resources;
-			path = "";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,13 +268,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
-				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				C17FB15CB9274EC8892FB219 /* NotoSansCJKtc-Bold.otf in Resources */,
-				DA419E3E180047F799E1A63F /* NotoSansCJKtc-Light.otf in Resources */,
-				3CAB73FF014B4CDE85B676C4 /* NotoSansCJKtc-Medium.otf in Resources */,
-				43B32F93BDB2425C81098193 /* NotoSansCJKtc-Regular.otf in Resources */,
-				62AE4265D870440BA8D37C7C /* LICENSE_OFL.txt in Resources */,
-				4249242F18D24EC8AEAA9A33 /* README in Resources */,
+				61A8A96994AC4A03A0C3B6E5 /* NotoSansCJKtc-Bold.otf in Resources */,
+				411FDED0B9DA46E38A09FC35 /* NotoSansCJKtc-Light.otf in Resources */,
+				E420475C74E54D58BE1CF072 /* NotoSansCJKtc-Medium.otf in Resources */,
+				7FFF401401194AA7BB006424 /* NotoSansCJKtc-Regular.otf in Resources */,
+				18FA2C56113E4310A3D88B6A /* LICENSE_OFL.txt in Resources */,
+				D88CEAFA6EA345DFB681D725 /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -595,7 +592,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -667,7 +664,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
